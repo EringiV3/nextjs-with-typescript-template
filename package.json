@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn lint && echo 'foo'"
+      "pre-commit": "pretty-quick --staged && yarn lint"
     }
   },
   "dependencies": {
